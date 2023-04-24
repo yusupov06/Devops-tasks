@@ -1,0 +1,20 @@
+server:
+  port: 8085
+spring:
+  r2dbc:
+    username: postgres
+    password: 2002
+    url: r2dbc:postgresql://localhost:5432/synccachedb
+springdoc:
+  swagger-ui:
+    path: /swagger-ui
+
+cache:
+  update:
+    in: 15
+  expire:
+    delay:
+      in: 30
+
+  scheduling:
+    enabled: true

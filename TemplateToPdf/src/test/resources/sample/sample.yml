@@ -1,0 +1,6 @@
+name: "{{name}}"
+surname: "{{surname}}"
+age: "{{age}}"
+email:
+  work: "{{work}}"
+  home: "yusupov@gmail.com"
